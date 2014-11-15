@@ -41,7 +41,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Sitters for Famlily Critters</a>
+                <a class="navbar-brand" href="index.html">Sitters for Family Critters</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -50,10 +50,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
+                        <a href="services.html">Services</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
@@ -72,11 +69,11 @@
                 <div class="col-lg-12 text-center">
                     <div id="carousel-example-generic" class="carousel slide">
                         <!-- Indicators -->
-                        <ol class="carousel-indicators hidden-xs">
+                        <!-- <ol class="carousel-indicators hidden-xs">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
+                        </ol>-->
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
@@ -139,10 +136,12 @@
                         <strong>Us</strong>
                     </h2>
                     <hr>
-                    <p>Kelsey Hockenbury</p>
+                    <span class="text-center">
+                    <h5><p>Kelsey Hockenbury</p>
                     <p>703.477.5381</p>
                     <p>Location: Ashburn, VA</p>
-                    <p>Service Area: Most of Eastern Loudoun Country (Ashburn, The Broadlands, Sterling, Lesssburg, Centreville, Herndon, Chantilly)</p>
+                    <p class="">Service Area: Most of Eastern Loudoun Country <br>(Ashburn, The Broadlands, Sterling, Lesssburg, Centreville, Herndon, Chantilly)</p></h5>
+                    </span>
                 </div>
             </div>
         </div>
@@ -154,18 +153,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Sitters for Family Critters 2014</p>
                 </div>
             </div>
         </div>
     </footer>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
 
 
     <!-- build:js(.) scripts/vendor.js -->
@@ -176,12 +168,14 @@
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-56782316-1', 'auto');
+      ga('send', 'pageview');
+
     </script>
 
         <!-- build:js(.) scripts/plugins.js -->
