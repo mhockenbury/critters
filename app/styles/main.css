@@ -25,6 +25,11 @@ h6 {
     letter-spacing: 1px;
 }
 
+h5 a {
+    color: inherit;
+    text-decoration: underline;
+}
+
 p {
     font-size: 1.25em;
     line-height: 1.6;
@@ -182,6 +187,10 @@ footer p {
         font-size: 1.25em;
     }
 }
+
+    .user_message{
+        min-height: 100px;
+    }
 
 @media screen and (min-width:1200px) {
     .box:after {
